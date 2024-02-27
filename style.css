@@ -91,11 +91,11 @@
             height: 60px;
         }
         .fix img {
-            height: 50px;
+            height: 55px;
             position: fixed;
             z-index: 10;
-            margin-top: 600px;
-            margin-left: 10px;
+            top: 89vh; 
+            left: 0.5vw; 
         }
 
         .box2 {
