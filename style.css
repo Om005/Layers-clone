@@ -150,7 +150,9 @@
             margin-bottom: 40px;
 
         }
-
+        .laptops a:hover {
+            opacity: 0.85;
+        }
         .laptops img {
             height: 350px;
         }
