@@ -16,189 +16,7 @@
         crossorigin="anonymous"></script>
 
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Poppins:wght@500&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Anta&family=Baloo+Bhai+2:wght@600&family=Poppins:wght@500&display=swap');
-
-        .anta-regular {
-            font-family: "Anta", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        .poppins-medium {
-            font-family: "Poppins", sans-serif;
-            font-weight: 500;
-            font-style: normal;
-        }
-
-        .baloo-bhai {
-            font-family: "Baloo Bhai 2", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 600;
-            font-style: normal;
-        }
-
-        * {
-            padding: 0;
-            margin: 0;
-        }
-
-        body {
-            background-color: #ffff;
-        }
-
-        .nav {
-            position: sticky;
-            z-index: 1000;
-            padding-top: 9px;
-            padding-bottom: 12px;
-        }
-
-        .nav ul {
-            display: flex;
-            gap: 46px;
-            align-items: center;
-        }
-
-        .nav ul li {
-            list-style: none;
-            font-size: 13px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            padding-top: 10px;
-            font-weight: bold;
-        }
-
-        .nav ul li:first-child img {
-            height: 45px;
-            margin-right: 170px;
-            margin-left: -10px;
-        }
-
-        .nav ul li.special img {
-            height: 25px;
-            margin-right: 10px;
-        }
-
-        .spe img {
-            padding-top: 2px;
-            padding: 10px;
-        }
-
-        .photo {
-            display: flex;
-            justify-content: center;
-            align-content: center;
-        }
-
-        .nav ul li a {
-            color: black;
-            text-decoration: none;
-        }
-
-        h2 {
-            text-align: center;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
-        .fix img {
-            height: 50px;
-            position: fixed;
-            z-index: 10;
-            margin-top: 600px;
-            margin-left: 10px;
-        }
-
-        .box2 {
-            display: grid;
-            grid-template-columns: repeat(8, 1fr);
-            grid-row: auto 20px;
-            gap: 20px;
-            text-align: center;
-            row-gap: 10px;
-        }
-
-        .box2 img {
-            height: 140px;
-            border: 1px solid rgb(213, 225, 244);
-            border-radius: 50%;
-        }
-
-        .phones {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: auto 70px auto auto;
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .phones img {
-            height: 350px;
-        }
-
-        .design {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-
-        .phones span {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        .phones a:hover {
-            opacity: 0.85;
-        }
-
-        .bigimg img {
-            width: 98vw;
-        }
-
-        .laptops {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: auto 20px auto auto;
-            text-align: center;
-            margin-bottom: 40px;
-
-        }
-
-        .laptops img {
-            height: 350px;
-        }
-        .lastimgs {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows: 315px 315px;
-        }
-        .lastimgs img {
-            height: 310px;
-            row-gap: 20px;
-        }
-        .lastdiv {
-            display: flex;
-            text-align: center;
-            margin-top: 40px;
-            margin-bottom: 50px;
-            margin-left: 90px;
-            margin-right: 90px;
-            gap: 30px;
-        }
-        .lastdiv img {
-            height: 42px;
-        }
-        .lastdiv h3 {
-            margin-top: 40px;
-        }
-        .lastdiv p {
-            margin-top: 20px;
-            font-size: 15px;
-        }
-        footer {
-            background-color: rgb(225, 225, 225);
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -322,26 +140,27 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;₹ 599</span>
         </div>
 
-        <div id="carouselExample" class="carousel slide">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-interval="800">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://www.layers.shop/cdn/shop/files/NEW_ARRIVALS-2-min.png?v=1708333649&width=1860"
-                        class="d-block w-100" alt="...">
+                    <img src="https://www.layers.shop/cdn/shop/files/NEW_ARRIVALS-2-min.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://www.layers.shop/cdn/shop/files/Marvel_24_Banner1.jpg?v=1705318216&width=1860"
-                        class="d-block w-100" alt="...">
+                    <img src="https://www.layers.shop/cdn/shop/files/Marvel_24_Banner1.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        
         <h2 class="design poppins-medium">Best Selling Mobile Skins</h2>
         <div class="phones">
             <a href="/"><img src="https://www.layers.shop/cdn/shop/files/Deadpool_2.jpg?v=1693493681&width=1860"
@@ -415,7 +234,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;₹ 1199</span>
             <span>Mandalorian Silhouette
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 1199</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹ 1199</span>
             <span>Cybermind
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;₹ 1199</span>
@@ -439,7 +258,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;₹ 1199</span>
         </div>
-        <h2 class="follow anta-regular">FOLLOW US ON INSTAGRAM</h2>
+        <h2 class="follow anta-regular">FOLLOW ME ON INSTAGRAM <a href="https://www.instagram.com/om_chavda06/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/4138/4138124.png" alt=""></a></h2>
 
         <div class="lastimgs">
             <a href="/"><img src="https://scontent.cdninstagram.com/v/t51.29350-15/429479589_294270886729966_2327633444161403146_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=1lgidqbj5NYAX9jCFcR&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfDijYani2TlGDZX_wIc5-qHVuZP5RJGosVkClatchoU9w&oe=65E0C23B" alt=""></a>
